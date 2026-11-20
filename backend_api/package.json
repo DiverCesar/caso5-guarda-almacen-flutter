@@ -1,0 +1,12 @@
+{
+  "name": "guarda-almacen-backend-api",
+  "version": "1.0.0",
+  "description": "Mock REST API para Caso 5: Entrega de Bienes en Guarda de Almacén",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["mock", "rest-api", "flutter", "guarda-almacen"],
+  "author": "devcesar",
+  "license": "MIT"
+}

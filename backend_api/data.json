@@ -1,0 +1,109 @@
+{
+  "responsables": [
+    {
+      "id": 1,
+      "nombre": "Ing. Carlos Mendoza",
+      "cargo": "docente",
+      "area": "Sistemas e Informática",
+      "contacto": "carlos.mendoza@universidad.edu.ec"
+    },
+    {
+      "id": 2,
+      "nombre": "Laboratorio de Redes y Telecomunicaciones",
+      "cargo": "laboratorio",
+      "area": "Telecomunicaciones",
+      "contacto": "lab.redes@universidad.edu.ec"
+    },
+    {
+      "id": 3,
+      "nombre": "Lic. Ana Belén Tapia",
+      "cargo": "oficina",
+      "area": "Dirección de Talento Humano",
+      "contacto": "0998765432"
+    },
+    {
+      "id": 4,
+      "nombre": "Dr. Jorge Morales",
+      "cargo": "responsable de proyecto",
+      "area": "Investigación Robótica y AI",
+      "contacto": "jorge.morales@universidad.edu.ec"
+    }
+  ],
+  "bienes": [
+    {
+      "id": 1,
+      "codigoInstitucional": "EPN-PRJ-001",
+      "nombre": "Proyector Epson PowerLite E20",
+      "descripcion": "Proyector 3LCD 3400 lúmenes para aulas magna",
+      "cantidadTotal": 3,
+      "cantidadDisponible": 2,
+      "estado": "Disponible"
+    },
+    {
+      "id": 2,
+      "codigoInstitucional": "LAB-OSC-014",
+      "nombre": "Osciloscopio Digital Tektronix TBS1052B",
+      "descripcion": "Osciloscopio 50MHz 2 canales para lab de electrónica",
+      "cantidadTotal": 4,
+      "cantidadDisponible": 0,
+      "estado": "Entregado"
+    },
+    {
+      "id": 3,
+      "codigoInstitucional": "TI-LAP-089",
+      "nombre": "Laptop Dell Latitude 5420",
+      "descripcion": "Laptop Intel Core i7 16GB RAM para proyectos de investigación",
+      "cantidadTotal": 5,
+      "cantidadDisponible": 0,
+      "estado": "En mantenimiento"
+    },
+    {
+      "id": 4,
+      "codigoInstitucional": "ROB-ARD-022",
+      "nombre": "Kit Arduino Mega 2560 Pro",
+      "descripcion": "Kit de robótica educativa con sensores y actuadores",
+      "cantidadTotal": 10,
+      "cantidadDisponible": 8,
+      "estado": "Disponible"
+    },
+    {
+      "id": 5,
+      "codigoInstitucional": "OFI-SIL-005",
+      "nombre": "Silla Ergonómica Herman Miller",
+      "descripcion": "Silla de oficina con base fracturada reportada para reciclaje",
+      "cantidadTotal": 2,
+      "cantidadDisponible": 0,
+      "estado": "Dado de baja"
+    }
+  ],
+  "entregas": [
+    {
+      "id": 1,
+      "bienId": 2,
+      "responsableId": 1,
+      "tipoEntrega": "Temporal",
+      "fechaEntrega": "2026-11-15",
+      "cantidad": 4,
+      "observacion": "Uso en práctica de laboratorio de circuitos digitales",
+      "condicionEntrega": "Óptimo",
+      "devuelto": false,
+      "fechaDevolucion": null,
+      "condicionDevolucion": null,
+      "presentaDano": false
+    },
+    {
+      "id": 2,
+      "bienId": 3,
+      "responsableId": 4,
+      "tipoEntrega": "Temporal",
+      "fechaEntrega": "2026-11-01",
+      "cantidad": 5,
+      "observacion": "Desarrollo de simulaciones neuronales",
+      "condicionEntrega": "Óptimo",
+      "devuelto": true,
+      "fechaDevolucion": "2026-11-18",
+      "condicionDevolucion": "Falla en teclado y pantalla parpadeante",
+      "presentaDano": true
+    }
+  ]
+}
